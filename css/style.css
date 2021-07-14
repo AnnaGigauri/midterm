@@ -12,26 +12,25 @@ ul{
 	justify-content: space-around;
 }
 li{
-	margin-top: 32px;
+	margin-top: 10px;
 }
 .nav1{
-	font-family: raleway;
+	font-family: tahoma;
 	color: #fff;
 	font-weight: bold;
-	font-size: 17px;
-    /*margin-left: 110px;*/
+	font-size: 15px;
     margin-right: 310px;
 }
 .nav2{
-	font-family: raleway;
+	font-family: tahoma;
 	color: #5863f8;
-	font-size: 17px;
+	font-size: 15px;
 	margin-right: 70px;
 }
 .nav{
-	font-family: raleway;
+	font-family: tahoma;
 	color: #fff;
-	font-size: 17px;
+	font-size: 15px;
 	margin-right: 80px;
 }
 .title{
@@ -41,13 +40,13 @@ li{
 	margin-left: 160px;
 }
 h1{
-	font-size: 30px;
+	font-size: 35px;
 	font-family: tahoma;
 	color: #fff;
 	font-weight:900;
 }
 .child{
 	position: absolute;
-	width: 300px;
+	width: 200px;
 	margin-top: 146px;
 }
