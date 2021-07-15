@@ -3,13 +3,23 @@
 	background-image: url('../images/img.jpg');
 	height: 360px;
 	background-repeat: no-repeat;
-    width: 1536px;
+    width: 1519px;
 	background-size: cover;
+}
+.title{
+	position: relative;
+	height: 150px;
+	margin-top: 35px;
+	margin-left: 160px;
+}
+.child{
+	position: absolute;
+	width: 200px;
+	margin-top: 146px;
 }
 ul{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
 }
 li{
 	margin-top: 10px;
@@ -19,13 +29,13 @@ li{
 	color: #fff;
 	font-weight: bold;
 	font-size: 15px;
-    margin-right: 310px;
+    margin-right: 340px;
 }
 .nav2{
 	font-family: tahoma;
 	color: #5863f8;
 	font-size: 15px;
-	margin-right: 70px;
+	margin-right: 90px;
 }
 .nav{
 	font-family: tahoma;
@@ -33,20 +43,104 @@ li{
 	font-size: 15px;
 	margin-right: 80px;
 }
-.title{
-	position: relative;
-	height: 150px;
-	margin-top: 35px;
-	margin-left: 160px;
-}
 h1{
 	font-size: 35px;
 	font-family: tahoma;
 	color: #fff;
 	font-weight:900;
 }
-.child{
-	position: absolute;
-	width: 200px;
-	margin-top: 146px;
+.section{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 400px;
+	height: 750px;
+	width: 1219px;
+}
+.div1{
+	margin-top: 30px;
+	width: 444px;
+	height: 388px;
+}
+h4{
+	font-size: 17px;
+	font-family: tahoma;
+	color:#5863f8;
+	margin-bottom:20px;
+	font-weight: 700;
+}
+h2{
+	font-size: 45px;
+	font-family: tahoma;
+	font-weight: 900;
+	line-height: 50px;
+}
+.pgph1{
+	font-size: 17px;
+	line-height: 27px;
+	font-family: raleway;
+	font-weight: bold;
+	width: 430px;
+	margin-top: 15px;
+}
+.pgph2{
+	font-size: 16px;
+	line-height: 27px;
+	font-family: raleway;
+	width: 470px;
+	margin-top: 15px;
+}
+.button{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url("../images/button.png");
+	margin-top: 20px;
+	width: 184px;
+	height: 50px;
+}
+.buttontxt{
+	font-size: 15px;
+	font-family: tahoma;
+	color: #fff;
+	font-weight: bold;
+}
+.div3{
+	width: 600px;
+	flex-wrap: wrap;
+}
+.div2{
+	display: flex;
+	width: 536px;
+	height: 188px;
+}
+.pic1{
+	margin-left: 130px;
+	width: 260px;
+	height: 185px;
+}
+.pic2{
+	display: flex;
+	width: 260px;
+	height: 185px;
+	margin-left: 11px;
+}
+.classforpic3{
+	display: flex;
+	margin-left: 130px;
+	margin-top: 8px;
+}
+.pic3{
+	width: 531px;
+	height: 260px;
+}
+.container{
+	display: flex;
+}
+.bg-image2{
+	display: flex;
+	background-image: url('../images/bg-image2.png');
+	height: 360px;
+	background-repeat: no-repeat;
+    width: 1519px;
+	background-size: cover;
 }
