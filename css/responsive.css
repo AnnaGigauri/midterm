@@ -1,0 +1,14 @@
+@media(max-width: 570px){
+	.button{
+		width: 100px;
+		background-color: red;
+	}
+	.buttontxt{
+		color: red;
+	}
+}
+@media(max-width: 600px){
+	.section{
+		background-color: blue;
+	}
+}
